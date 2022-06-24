@@ -1,1 +1,26 @@
 //
+body{
+    background-image: linear-gradient(#e50914 0% , #1e1e1e 100%);
+    min-height: 100vh;
+
+    .sc-nav{
+        width: 30%;
+        margin: 0 auto;       
+        list-style: none;       
+        .sc-button{
+            background-color: #1e1e1e;
+            border: 1px solid #1e1e1e;
+            color: white;
+            &:hover{
+            background-color: #e50914;
+            border: 1px solid #1e1e1e;
+            color: #1e1e1e;
+            }
+        }
+    }
+}
+
+
+.sc-card{
+    color: white;
+}
